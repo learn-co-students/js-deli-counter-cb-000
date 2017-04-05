@@ -22,8 +22,8 @@ function currentLine(line){
 
 
   for(let i=0, k=line.length; i < k; i++){
-    arr.push(` ${i+1}. ${line[i]}`)
+    arr.push(`${i+1}. ${line[i]}`)
   }
 
-  return `The line is currently:${arr.join(",")}`
+  return `The line is currently: ${arr.join(", ")}`
 }
