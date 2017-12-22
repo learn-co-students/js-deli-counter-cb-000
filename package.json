@@ -6,17 +6,13 @@
   "scripts": {
     "debug": "node-debug --hidden node_modules _mocha --watch",
     "debug-ide": "./bin/debug-ide",
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    "test": "mocha -b -R mocha-multi --reporter-options nyan=-,json=.results.json"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/learn-co-curriculum/js-deli-counter.git"
   },
-  "keywords": [
-    "javascript",
-    "flatiron",
-    "learn"
-  ],
+  "keywords": ["javascript", "flatiron", "learn"],
   "author": "The Flatiron School",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
