@@ -19,8 +19,9 @@ function currentLine(line) {
     line.forEach(function (value, i) {
       newArr.push(' ' + (i + 1) + '. ' + value);
     })
-  return ('The line is currently:' + newArr);
-  } else {
+    return ('The line is currently:' + newArr);
+  }
+  else {
     return 'The line is currently empty.';
   }
 }
